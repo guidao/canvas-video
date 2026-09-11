@@ -1,0 +1,18 @@
+*.dylib
+*.so
+*.elc
+*.dSYM/
+tests/player-test
+tests/scale-test
+tests/fixture.mkv
+tests/gui-result.log
+
+# Local settings, credentials, and editor / operating system artifacts
+.env
+.env.*
+!.env.example
+.DS_Store
+*~
+\#*\#
+.#*
+*.log
