@@ -215,3 +215,11 @@ make check-gui     # 启动独立图形 Emacs，完成集成测试后自动退�
 libmpv 回调唤醒渲染线程，将画面写入独立像素缓冲区；Emacs 主线程获取 Canvas 数据、复制最新帧并调用 `canvas-refresh`。后台线程不调用 Emacs API，原生模块也不长期持有 Canvas 指针。
 
 每个视频持有独立播放器与状态，每个 buffer 共用一个刷新 timer。播放命令以参数数组传给 libmpv，不经过 shell；默认不加载用户的 mpv 配置和外部自动脚本。
+
+## 许可证
+
+Copyright (C) 2026 guidao
+
+本项目采用 **GNU General Public License 第 3 版或任何后续版本**（`GPL-3.0-or-later`）。你可以按照该许可证使用、修改和再分发本项目；本项目不提供任何担保。完整条款见 [LICENSE](LICENSE)。
+
+Emacs、libmpv、telega 等第三方依赖保留各自的版权和许可证，本项目的许可声明不改变其许可条款。

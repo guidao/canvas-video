@@ -1,4 +1,23 @@
 ;;; canvas-video-volume.el --- Floating volume slider -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2026 guidao
+;; SPDX-License-Identifier: GPL-3.0-or-later
+;;
+;; This file is part of canvas-video.
+;;
+;; canvas-video is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; canvas-video is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with canvas-video.  If not, see <https://www.gnu.org/licenses/>.
+
 ;;; Commentary:
 ;; A child frame containing an SVG slider, scoped to one video instance.
 ;;; Code:
